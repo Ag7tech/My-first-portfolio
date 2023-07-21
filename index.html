@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/35b52b9e94.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contanier">
+            <nav>
+                <img src="images/logo3.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, i'm <span>Andrew</span> <br>Chigozie from Nigeria.</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="contanier">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bg-3.jpg">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>I am very good in Web Development, UI/UX Design, App Development,
+                     and A good Wordpress Developer. 
+                    <p>i was a chinese language translator before now, 
+                        but due to my love for tech, i saved up and moved my way to tech,
+                    when it come to work, i makes sure i deliver any task given to me on or before time.
+                    Am humble and unique in my onw way "untile you get to know me.", 
+                    <p>Give me your jobs and Get the best.</p>
+                    </p></p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+
+                     <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>2023-current</span><br>finished taking courses on Web/App Development</li>
+                            <li><span>2022-2023</span><br>Team lead on Ag-Group.ltd </li>
+                            <li><span>2018-2022</span><br>Working as a chinese language translator at Dangote oil 
+                            Refinery, under CNCEC.</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>Web and App Development from Digital Dreams</li>
+                            <li><span>2022</span><br>UX/UI Design Training at Digital Dreams</li>
+                            <li><span>2017</span><br>HSK4 from HANBAN china</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="contanier">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I Design websites using HTML, 
+                        CSS, JAVASCRIPT. and also use the best content
+                         management system called WORDPRESS.
+                     </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I Design a very neat and nice website, 
+                        Android & ios App with figma. 
+                        and of course with figma i can
+                         give you the best template</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>AppDesign</h2>
+                    <p>I Develope Android & ios App using
+                         flutter language, React Native.
+                          and with this your Apps are
+                           going to come out Wow.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Portfolio">
+      <div class="contanier">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ecom.jpg" height="420">
+                <div class="layer">
+                    <h3>Ecommmerce Website</h3>
+                    <p>Done with HTML CSS and a bit of JAVASCRIPT</p>
+                    <a href="https://ag7tech.github.io/AndrewStores/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/school photo.jpg" height="420">
+                <div class="layer">
+                    <h3>School website</h3>
+                    <p>Done with HTML CSS and a bit of JAVASCRIPT</p>
+                    <a href="https://ag7tech.github.io/school/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Oline Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptate.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+      <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="contanier">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>08055020081c@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>+2348055020081</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100075323319461&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/message/44EDFET3L4FSH1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chigozie-andrew-04430727a"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My Resume.pdf" download="" class="btn btn2">Download Resume</a>
+
+                </div>
+
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xwkdkjgd" method="post">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>  
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyrright">
+            <p>copyrright &copy; Andrew. <i class="fa-solid fa-heart"></i>First Portfolio 2023(HTML,CSS,JS)</p>
+        </div>
+    </div>
+    
+
+
+<!-- <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-content");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+           tablink.classlist.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+           tabcontent.classlist.remove("active-tab");
+    }
+}
+
+
+</script> -->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-content");
+
+function opentab(tabname) {
+    for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active-link");
+    }
+    for (var i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
